@@ -1,0 +1,7 @@
+jupyter:
+   image: shail06/jupyter-lite:v1
+   container_name: jupyter
+   volumes:
+    - ./notebooks:/notebooks
+   ports:
+    - '9000:9000'
